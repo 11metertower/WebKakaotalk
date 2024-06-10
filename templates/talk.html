@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/static/talk_function.js?after"></script>
+    <link href="/static/talk_style.css?after" rel="stylesheet">
+</head>
+
+<body>
+    <div class="user1">
+        <div class="wrap">
+        </div>
+        <div class="file">
+            <div class="img_file"><input id="input_image" name="input_image" type="file" style="display: none;"
+                    onchange="image_input()" accept="image/jpeg, image/gif, image/png"><img src="/static/image.png"
+                    onclick="document.all.input_image.click()"></div>
+            <div class="video_file"><input id="input_video" name="input_video" type="file" style="display: none;"
+                    accept="video/mp4"><img src="/static/video.png" onclick="document.all.input_video.click()"></div>
+        </div>
+        <textarea name="text1" id="text1"></textarea>
+        <button type="submit" name="send1" id="send1">Send</button>
+    </div>
+</body>
+
+</html>

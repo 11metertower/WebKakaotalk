@@ -1,0 +1,89 @@
+.back {
+    margin: 20px;
+    margin-top: 0px;
+    float: left;
+    border: thin solid grey;
+    border-radius: 5px;
+    position: relative;
+}
+
+.wrap {
+    width: 500px;
+    height: 820px;
+    overflow: auto;
+    padding: 0px 0;
+    background-color: #F9EB54;
+    border-radius: 5px;
+}
+
+h1 {
+    margin-top: 100px;
+    margin-left: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: #712c19;
+}
+
+img {
+    margin-left: 160px;
+    width: 200px;
+    height: 200px;
+}
+
+span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #712c19;
+}
+
+.inputform {
+    margin-top: 60px;
+}
+
+.inputform_reg {
+    margin-top: 300px;
+}
+
+.span_id {
+    margin-left: 135px;
+}
+
+.span_pass {
+    margin-left: 67px;
+}
+
+.id {
+    height: 20px;
+    font-size: 18px;
+}
+
+.password {
+    height: 20px;
+    font-size: 18px;
+}
+
+.idsubmit {
+    margin-left: 220px;
+    margin-top: 40px;
+    height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #712c19;
+    background-color: #A8C0D6;
+    border-radius: 10px;
+    border: none;
+    font-weight: 1000; 
+}
+
+.register {
+    margin-left: 206px;
+    margin-top: 40px;
+    height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #712c19;
+    background-color: #A8C0D6;
+    border-radius: 10px;
+    border: none;
+    font-weight: 1000; 
+}
